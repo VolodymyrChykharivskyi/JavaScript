@@ -1,4 +1,4 @@
-// Liskov Substitution Principle
+// Liskov Substitution Principle - work with type and subtype bun don't know anything about item
 
 class Person {}
 
@@ -70,7 +70,7 @@ class HOC extends HigherOrderComponent {
 }
 
 function renderComponent(component) {
-    console.log(component.render());;
+    console.log(component.render());
 }
 
 renderComponent(new Header());
